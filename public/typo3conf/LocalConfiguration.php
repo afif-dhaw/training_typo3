@@ -40,6 +40,17 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'flux' => [
+            'autoload' => '1',
+            'debugMode' => '0',
+            'doktypes' => '0,1,4',
+            'flexFormToIrre' => '0',
+            'handleErrors' => '0',
+            'pageIntegration' => '1',
+            'pagesLanguageConfigurationOverlay' => '0',
+            'plugAndPlay' => '0',
+            'plugAndPlayDirectory' => 'design',
+        ],
     ],
     'FE' => [
         'debug' => true,
